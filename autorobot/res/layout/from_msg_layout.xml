@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="2dp"
+    android:orientation="vertical" >
+    <TextView 
+        android:id="@+id/id_from_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:background="#bebebe"
+        android:layout_gravity="center"
+        android:textSize="12sp"
+        android:text="2012-12-12 12:12"/>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dp"
+        android:orientation="horizontal">
+        
+        <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="3dp"
+        android:orientation="vertical">
+        <ImageView 
+         android:layout_width="49dp"
+         android:layout_height="49dp"
+         android:src="@drawable/icon"/>  
+         <TextView 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textSize="16sp"
+         android:layout_gravity="center"
+         android:text="颜夕若"/>
+        </LinearLayout>
+        
+        <TextView 
+            android:id="@+id/id_from_msg_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/chatfrom_bg_normal"
+            android:text="你好吗？你叫声明名字，你住在你不回家比很久不见氨溴索不回家啊 不回家保存  那就看看成是北城酒店上课吧好长时间扩大  的"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:gravity="center_vertical"/>
+        
+    </LinearLayout>
+
+</LinearLayout>

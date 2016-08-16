@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="2dp"
+    android:orientation="vertical" >
+    <TextView 
+        android:id="@+id/id_to_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:background="#bebebe"
+        android:layout_gravity="center"
+        android:textSize="12sp"
+        
+        android:text="2012-12-12 12:12"/>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dp"
+        android:gravity="right"
+        android:orientation="horizontal"
+        >
+        
+       <TextView 
+            android:id="@+id/id_to_msg_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="100"
+            android:textColor="@color/black"
+            android:background="@drawable/chatto_bg_normal"
+            android:text="你好吗？你叫声明名字不回家看书赌博很健康擦边哈哈镜空白Yui变化检测可不好撒娇咔擦  ，北海舰队社保卡茶几上大卡车不好的教科书  "
+            android:textSize="12sp"
+            android:gravity="center_vertical"/>
+        <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="3dp"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <ImageView 
+         android:layout_width="49dp"
+         android:layout_height="49dp"
+         android:src="@drawable/me"/>  
+         <TextView 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textSize="16sp"
+         android:layout_gravity="center"
+         android:text="萧启"/>
+        </LinearLayout>
+        
+       
+        
+    </LinearLayout>
+
+</LinearLayout>
